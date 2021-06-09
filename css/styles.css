@@ -1,0 +1,23 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+ font-family: "Lobster", cursive;
+}
+
+nav {
+ background-image: linear-gradient(to left, red,black, white);
+}
+
+nav, a{
+ color:black;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; 
+ }
+  
