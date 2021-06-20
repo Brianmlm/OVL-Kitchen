@@ -2,16 +2,13 @@ body {
  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2 {
+h2{
  font-family: "Lobster", cursive;
+ color: white;
 }
 
-nav {
+header {
  background-image: linear-gradient(to left, red,black, white);
-}
-
-nav, a{
- color:black;
 }
 
 #carouselButton {
@@ -26,14 +23,15 @@ footer {
 } 
 .footer {
   position: relative;
-  margin-top: -150px; /* negative value of footer height */
+  /* margin-top: -150px; negative value of footer height */
   height: 150px;
   clear:both;
-  padding-top:20px;
+  padding: 20px 0; 
 }
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 2;
-  z-index: 100; }
+  z-index: 100; 
+}
 
